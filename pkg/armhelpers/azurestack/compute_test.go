@@ -28,6 +28,7 @@ func TestListVirtualMachineScaleSets(t *testing.T) {
 		t.Fatalf("can not get client %s", err)
 	}
 
+	// TODO this is panic'ing
 	mc.RegisterListVirtualMachineScaleSets()
 
 	list := &VirtualMachineScaleSetListValues{}
