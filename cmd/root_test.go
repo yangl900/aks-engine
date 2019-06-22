@@ -262,7 +262,7 @@ func TestWriteCustomCloudProfile(t *testing.T) {
 			}
 		})
 	}
-}*/
+}
 
 func isValidIdentitySystem(s string) bool {
 	return s == "azure_ad" || s == "adfs"
@@ -340,7 +340,7 @@ func registerRespondersForIdentitySystem(authArgs *authArgs) {
 				return resp, nil
 			})
 	}
-}
+}*/
 
 func prepareCustomCloudProfile() error {
 	const (
