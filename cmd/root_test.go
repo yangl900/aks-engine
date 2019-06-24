@@ -4,9 +4,9 @@
 package cmd
 
 import (
-	"fmt"
+	//"fmt"
 	"io/ioutil"
-	"net/http"
+	//"net/http"
 	"os"
 	"testing"
 
@@ -17,7 +17,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	ini "gopkg.in/ini.v1"
-	"gopkg.in/jarcoal/httpmock.v1"
+	//"gopkg.in/jarcoal/httpmock.v1"
 )
 
 //mockAuthProvider implements AuthProvider and allows in particular to stub out getClient()
